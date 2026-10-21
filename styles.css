@@ -1,24 +1,42 @@
 html{
-background-color: rgb(191, 194, 134);
+background-color: rgb(226, 200, 159);
+font-family: Lato, sans-serif;
 }
 body{
     margin: 0;
 }
-.site-links{
-    background-color: rgb(16, 113, 128);
-    list-style-type: none;
+.site-header{
+    background-color: rgb(190, 91, 117);
     padding: 10px;
-    display: flex;
-    gap: 10px;
 }
-.site-link{
+.sidebar{
     background-color: rgb(114, 250, 225);
     padding: 10px;
-    color:rgb(30, 80, 65);
-    text-decoration: none;
-    border-radius: 10px;
-    display: inline-block;
+    flex: 0 0 200px;
 }
-.site-link:hover{
-    background-color: rgb(44, 145, 147);
+.site-main{
+    background-color: rgb(231, 238, 95);
+    padding: 10px;
+}
+.site-footer{
+    background-color: rgb(218, 114, 250);
+    padding: 10px;
+}
+
+.two-column{
+    display:flex;
+    gap:10px;
+    margin: 10px 0;
+}
+.wrapper{
+    max-width: 700px;
+    margin: 30px auto 0 auto;
+    background-color:aliceblue;
+}
+.site-links{
+    list-style: none;
+    display: flex;
+    gap: 20px;
+    padding: 0;
+    
 }
